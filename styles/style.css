@@ -235,7 +235,7 @@
   height: 777px;
   left: 148px;
   right: 152px;
-  top: 2340px;
+  top: 2430px;
   bottom: 2128px;
   display: flex;
   flex-direction: column;
@@ -252,4 +252,23 @@
   align-items: center;
   padding: 0px;
   margin: 48px 0px;
+}
+.video-container {
+  width: 1140px;
+  height: 614px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 32px;
+  margin: 48px 0px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
+.iframe {
+  width: 1076px;
+  height: 550px;
+  flex: none;
+  margin: 10px 0px;
 }
